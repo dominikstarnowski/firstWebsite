@@ -1,0 +1,154 @@
+/******************** Index Styles ********************/
+body {
+  background: #f4f4f4;
+  margin: 0;
+  background-image: url('https://images.freeimages.com/images/large-previews/a3b/website-rays-background-pattern-1637863.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  width:780px;
+  margin: 0 auto;
+  /* background: #fff; */
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/HD_transparent_picture.png/1200px-HD_transparent_picture.png');
+  box-shadow: 2px 9px 15px -2px;
+}
+
+.link-title {
+  text-decoration: none;
+  font-size: 24px;
+  color: #444444
+}
+
+.header {
+  padding: 45px 0 20px 40px;
+  /* border: 1.5px solid #008080; */
+}
+
+.menu {
+  background: #008080;
+  padding: 6px 0 6px 40px;
+}
+
+.menu a {
+  color: #c5d60b;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: "Arial Narrow", "Myriad Pro";
+}
+
+.menu a:hover {
+  color: #ffffff;
+}
+
+aside {
+  float: left;
+  width: 120px;
+  padding: 30px 0 0 60px;
+}
+
+h1 {
+  margin: 0px;
+  margin-bottom: 30px;
+  color: #869213;
+  font-size: 24px;
+  font-family: "Arial Narrow", "Myriad Pro";
+  font-weight: normal;
+  text-align: center;
+}
+
+h2 {
+  color: #008080;
+  font-size: 15px;
+  margin: 20px 0 5px 0;
+}
+
+.main {
+  margin: 0 0 0 240px;
+  padding: 30px 40px 30px 0;
+  color: #444444;
+  font-family: "Georgia";
+  font-size: 13px;
+  line-height: 18px;
+  text-emphasis: justify;
+}
+
+.main a:hover {
+  color: #444444;
+}
+
+#home-image img {
+  width: 100%;
+}
+
+footer {
+  padding: 6px 40px 6px 40px;
+  background: #d6d6d6;
+  font-family: "Lucida Sans Unicode";
+  color: #444444;
+  font-size: 11px;
+  text-align: right;
+}
+
+footer a{
+  text-decoration: none;
+  color: #262626;
+}
+
+.separator {
+  color: #ffffff;
+  font-size: 11px;
+}
+
+/******************** About Page Styles ********************/
+
+#about-page #home-image img {
+  width: 70%;
+  float: left;
+  margin-bottom: 18px;
+}
+
+#about-page #profile-info {
+  float: right;
+  width: 20%;
+  margin: 5px;
+}
+
+#about-page .description {
+  clear: both;
+}
+
+/******************** Contact Us Styles ********************/
+textarea {
+  resize: none;
+  width: 100%;
+  padding: 0;
+  border-radius: 5px;
+  background: #ededed;
+  box-sizing: border-box;
+  box-shadow: 2px 9px 15px -2px;
+}
+td {
+  vertical-align: top;
+}
+label {
+  display: block;
+  text-align: right;
+}
+
+#contact #form input {
+  width: 100%;
+  border-radius: 5px;
+  height: 25px;
+  background: #ededed;
+  box-sizing: border-box;
+  box-shadow: 2px 9px 15px -2px;
+  border-width: thin;
+}
+#submit {
+  align-items: center;
+}
+table {
+  table-layout: fixed;
+}
